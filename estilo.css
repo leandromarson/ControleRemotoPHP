@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+body{
+			
+	background-color: #5B848F;
+	color: rgba(0,0,0,1);
+	font-family: Arial, sans-serif;
+}
+
+div#interface{
+	width:90%;
+	background-color: #B0D7FF;
+	margin: -20px auto 0px auto;
+	box-shadow:0px 0px 10px rgba(0,0,0,.5);
+	padding: 10px;
+}
+		
+p{
+        font-family: Arial Black, sans-serif;
+	text-align:justify; 
+	text-indent:10px;
+        color: #2E5162;
+}
+
+header#cabecalho{
+	border-bottom: 2px #606060 solid;
+	height: 100px;
+	
+	
+}
+
+header#cabecalho h1{
+	font-family: Arial, sans-serif;
+	font-size:30pt;
+	color: #004942;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+	padding: 0px;
+	margin-bottom:10px; 
+}
+
+header#cabecalho h2{
+	font-family: Arial , sans-serif;
+	color: #2E5162;
+	font-size: 15pt;
+	padding: 0px;
+	margin-top:0px;
+}
+
+form#formulario{
+    margin-top:10px;
+    padding: 10px;
+    border: 2px #606060 solid;
+}
+
+h2{
+    font-family: Arial , sans-serif;
+    color: #4E6C7A;
+    padding: 5px;
+    font-size: 15pt;
+}
+.button{
+    background-color: #4E597A;
+    border: 1px white solid;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button:hover{
+    background-color: #4E5960;
+}
+
+table, th, td{
+    margin-left:20px;
+    background-color: #86B8C5;
+    border: 1px black solid;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;     
+    box-shadow:0px 0px 10px rgba(0,0,0,.2);
+    border-collapse: collapse;
+    
+    
+}
+
+
+
+footer#rodape{
+	border-top: 2px #606060 solid;
+	clear:both;
+	
+}
+footer#rodape p{
+	text-align:center;
+}
+
+
+
+
+
